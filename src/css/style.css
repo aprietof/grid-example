@@ -3,3 +3,13 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+.square {
+  position: relative;
+}
+
+.square:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
